@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css'
 import App from './App.jsx';
-import ErrorPage from './components/Error.jsx';
+import Error from './components/Error.jsx';
 import AboutMe from './components/About.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
