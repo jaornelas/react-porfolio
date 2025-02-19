@@ -6,11 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css'
 import App from './App.jsx';
-import Error from './components/ErrorPage';
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import ErrorPage from './components/Error.jsx';
+import AboutMe from './components/About.jsx';
+import Portfolio from './components/Portfolio.jsx';
+import Contact from './components/Contact.jsx';
+import Resume from './components/Resume.jsx';
 
 const router = createBrowserRouter([
   {
