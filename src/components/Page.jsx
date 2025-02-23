@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import PageContent from '../PageContent';
+import PageContent from './PageContent.jsx';
 
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import { capitalizeFirstLetter } from '../utils/partners.js';
 import { Outlet } from 'react-router-dom';
 
 function Page({ currentPage }) {
