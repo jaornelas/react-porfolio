@@ -1,17 +1,15 @@
-import './Footer.css';
-import GitHub from './GitHub.jsx';
-import LinkedIn from '../images/In-White-72.png';
-import X from '../images/x-logo-black.png';
+import '../assets/Footer.css';
+import GitHub from '../img/github.png';
+import LinkedIn from '../img/linkedIn.png';
+import X from '../img/xLogo.png';
 
 function Footer() {
-const link = 'https://github.com/jaornelas';
-
     return (
         <div>
             <div className="container text-center">
-                <GitHub link={link} />
-                <a href='https://www.linkedin.com/in/colton-doling-893bb0341/' target='_blank'><img src={LinkedIn} className='icon p-5'/></a>
-                <a href='https://x.com/colton_doling' target='_blank'><img src={X} className='icon rounded ms-5 p-2' style={{backgroundColor: '#ffffff', width: 50}}/></a>
+                <a href="https://github.com/jaornelas" target='blank'><img src={GitHub} className='icon rounded ms-5 p-5'/></a>
+                <a href='https://www.linkedin.com/in/jos%C3%A9-alfredo-ornelas-4bb38a166/' target='_blank'><img src={LinkedIn} className='icon p-5'/></a>
+                <a href='https://x.com/fredsejo?s=21' target='_blank'><img src={X} className='icon rounded ms-5 p-2' style={{backgroundColor: '#ffffff', width: 50}}/></a>
             </div>
             <div className='text-center ms-3'>
             </div>

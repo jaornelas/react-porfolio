@@ -1,0 +1,13 @@
+:root {
+    background-color: #004346;
+}
+
+.icon {
+    opacity: 0.5;
+    width: 150px;
+}
+
+.icon:hover {
+    transition: .5s ease;
+    opacity: 1
+}
