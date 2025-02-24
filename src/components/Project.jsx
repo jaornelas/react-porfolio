@@ -1,5 +1,5 @@
 import { removeHyphensAndCapitalize } from '../utils/partners';
-//import * as projects from '../assets';
+import * as projects from '../assets';
 
 function Project({ project }) {
   const { name, repo, link, description } = project;
