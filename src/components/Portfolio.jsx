@@ -8,25 +8,31 @@ function Portfolio() {
       name: 'preworkStudyGuide',
       repo: 'https://github.com/jaornelas/prework-study-guide',
       link: 'https://jaornelas.github.io/prework-study-guide/',
-      description: ''
+      description: 'Starter pre-bootcamp practice'
     },
     {
-      name: 'payrollTracker',
+      name: 'employeeTracker',
       repo: 'https://github.com/jaornelas/SQLemployee-tracker',
       link: 'https://drive.google.com/file/d/1NbH16kYne8e344qzuBRC71fpoX1Y298n/view',
-      description: ''
+      description: 'PostgreSQL Employee Databases'
     },
     {
-      name: 'Build-A-Car',
+      name: 'carBuilder',
       repo: 'https://github.com/jaornelas/typescript-vehiclebuilder',
       link: 'https://drive.google.com/file/d/1vJpEogk0VnR-fd6eGw4FLYroBvAg6ZfI/view',
-      description: ''
+      description: 'Node.js & Inquirer'
+    }, 
+    {
+      name: 'budgetCalculator', 
+      repo: 'https://github.com/jaornelas/budget-calc-project-1', 
+      link: 'https://jaornelas.github.io/budget-calc-project-1/', 
+      description: '1st Project'
     }
   ])
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="row justify-content-center pb-5">
         {projects.map((project, idx) => (
           <Project
             project={project}
