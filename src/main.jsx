@@ -10,7 +10,7 @@ import Error from './components/Error.jsx';
 import AboutMe from './components/About.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
-//import Resume from './components/Resume.jsx';
+import Resume from './components/Resume.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'resume',
-        //element: <Resume />
+        element: <Resume />
       }
     ]
   }
