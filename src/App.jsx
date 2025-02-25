@@ -10,7 +10,7 @@ function App() {
   const currentPage = useLocation().pathname;
 
   const style = {
-    background: '#004346'
+    background: '#000000'
   }
 
   return (

@@ -2,24 +2,26 @@ import Profile from '../img/profilepic.jpeg';
 
 function About() {
     return (
-        <section className="my-5">
-            <div className="my-2">
-                <div className="profile-img my-5">
-                    <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
-                </div>
-                                    <div style={{ display: 'flex', alignItems: 'center' }}>
-
-                    <h2 style={{ marginRight: '20px'}}>
+        <section>
+            <div>
+                <div>
+                    <h2>
                         About Me
                     </h2>
-                    <img src={Profile} className="rounded-circle" style={{ width: 200, marginRight: '20px' }} alt="Profile Picture" />
+                    <br />
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <img src={Profile} className="rounded-circle" style={{ width: 200, marginRight: '20px' }} alt="Profile Picture" />
+                        <br />
+                        <br />
+                        <p>
+                            Hello! I'm Jose Alfredo Ornelas and I am a full stack developer from Wisconsin. Over the past few months, I've been enhancing my developer skills by learning various libararies and frameworks available to all developers.
+                            In my sparetime I enjoy reading books, going camping, and watching birds.
+                            <br/> <br/>
+                            My goals as I transition into a software engineering role are to continue adding more langugages to my repertoire and collaborate with other developers in my area to create meaningful projects.
+                            Please feel free to browse my site and visit the different repositories created during my Web Developer Bootcamp.
+                        </p>
                     </div>
-                    <p>
-                        Jose Alfredo Ornelas is a full stack developer from Wisconsin. Over the past few months, he has enhancing his developer skills by learning various libararies and frameworks available to all developers.
-                    </p>
-                    <p>
-                        My goals as I transition into a software engineering role are to continue adding more langugages
-                    </p>
+                </div>
             </div>
         </section>
     );
