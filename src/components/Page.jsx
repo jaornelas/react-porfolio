@@ -5,8 +5,10 @@ import { capitalizeFirstLetter } from '../utils/partners.js';
 import { Outlet } from 'react-router-dom';
 
 function Page({ currentPage }) {
+  //Remove the leading slash from the currentPage path 
   currentPage = currentPage.substring(1);
 
+  //Update the document title whenever the currentPage changes
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentPage);
   }, [currentPage]);
