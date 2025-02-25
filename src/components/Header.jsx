@@ -1,4 +1,3 @@
-// TODO: Have a background image with my name and implement the Navigation component.
 import Nav from "./Navigate.jsx";
 import headerBackground from "../img/headerBackground.jpg";
 

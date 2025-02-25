@@ -1,4 +1,3 @@
-// TODO: Use the react-router-dom to create links for About Me, Portfolio, Contact, and Resume.
 import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
