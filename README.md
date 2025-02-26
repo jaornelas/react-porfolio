@@ -3,6 +3,7 @@
 
 ## Description 
 This website is a live demonstration of all the skills learned throughout the web developer bootcamp. They include projects that I've worked on mine own, as well as with other classmates. Aside from the portfolio, you'll also have access to download a PDF file of my resume to use as you please.
+<br><br>
 ![Demonstration](./src/img/screepCapture.png)
 
  
