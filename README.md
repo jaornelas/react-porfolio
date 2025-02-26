@@ -12,11 +12,11 @@ None required
 
 ## Technologies
 
-JavaScript
-TypeScript
-PostgreSQL
-Node.js
-React
+* JavaScript
+* TypeScript
+* PostgreSQL
+* Node.js
+* React
 
 ## Contribution 
 XPert Learning Assistant, Stack Overflow Forums
