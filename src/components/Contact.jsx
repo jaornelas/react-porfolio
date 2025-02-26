@@ -1,16 +1,20 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/partners';
 
+//Contact component definition
 function Contact() {
+    //State to manage form inputs
   const [formState, setFormState] = useState({
     name: '',
     email: '',
     message: '',
   });
-
+  
+  // State to manage error message
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
@@ -18,6 +22,7 @@ function Contact() {
     }
   };
 
+  // Handle input changes and validation
   const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
