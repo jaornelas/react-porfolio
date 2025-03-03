@@ -8,7 +8,7 @@ function About() {
             </h2>
             <br />
             <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={Profile} className="rounded-circle" style={{ width: 200, marginRight: '20px' }} alt="Profile Picture" />
+                <img src={Profile} className="rounded-circle" style={{ height: 200, width: 200, borderRadius: '50%', marginRight: '20px' }} alt="Profile Picture" />
                 <br />
                 <br />
                 <p>
