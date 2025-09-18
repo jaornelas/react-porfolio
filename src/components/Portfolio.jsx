@@ -29,7 +29,7 @@ function Portfolio() {
       description: '1st Project'
     }
     {
-      name: 'Space Boats',
+      name: 'spaceBoats',
       repo: 'https://github.com/LPerez21/SPACE-BOATS',
       link: 'https://space-boats-front.onrender.com/',
       description: 'Final Project'
