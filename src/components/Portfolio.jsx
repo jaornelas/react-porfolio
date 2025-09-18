@@ -27,7 +27,7 @@ function Portfolio() {
       repo: 'https://github.com/jaornelas/budget-calc-project-1', 
       link: 'https://jaornelas.github.io/budget-calc-project-1/', 
       description: '1st Project'
-    }
+    },
     {
       name: 'spaceBoats',
       repo: 'https://github.com/LPerez21/SPACE-BOATS',
